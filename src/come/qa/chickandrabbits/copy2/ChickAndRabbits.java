@@ -1,4 +1,4 @@
-package come.qa.chickandrabbits;
+package come.qa.chickandrabbits.copy2;
 
 public class ChickAndRabbits {
 public void chickAndRabbit(int heads, int legs) {
