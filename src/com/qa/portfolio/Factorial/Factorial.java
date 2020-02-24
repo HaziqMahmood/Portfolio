@@ -1,10 +1,9 @@
-package com.qa.portfolio;
+package com.qa.portfolio.Factorial;
 
 public class Factorial {
-	public static void main(String[] args) {
-		int i = 6;
+	public void factorial(int maxNum) {
 		int out=1;
-		for(int x=1; x<=i; x++) {
+		for(int x=1; x<=maxNum; x++) {
 			out*=x;
 		}
 		
@@ -16,4 +15,8 @@ public class Factorial {
 System.out.println(out);
 
 	}
+	public primeNumber(int maxNum) {
+		
+	}
+	
 }

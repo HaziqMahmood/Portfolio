@@ -15,7 +15,10 @@ public class FizzBuzzPopSnap {
 		if (num % 11 == 0) {
 			sen += "Snap";
 		}
-		return sen;
+		if(sen.equals(""))
+			return sen.toString();
+	
+		
 	}
 	
 }
